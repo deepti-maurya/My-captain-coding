@@ -1,0 +1,9 @@
+numlist=[]
+n=int(input("enter the total no. of list..."))
+for i in range(1,n+1):
+    value=int(input("enter the value of %d element:" %i))
+    numlist.append(value)
+print("\npositive no. in the list are....:")
+for j in range(n):
+    if (numlist[j]>=0):
+         print(numlist[j],end="")
