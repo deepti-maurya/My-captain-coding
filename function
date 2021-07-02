@@ -1,0 +1,11 @@
+new_str={}
+ch=input("enter the string....")
+for i in ch:
+    if i in new_str:
+        new_str[i]+=1
+    else:
+        new_str[i]=1
+for i in new_str.keys():
+    print(i,end="")
+    print(end="=")
+    print(new_str[i])
